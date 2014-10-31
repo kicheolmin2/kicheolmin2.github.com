@@ -5,7 +5,7 @@ tagline: Ki&Song's Blog
 ---
 {% include JB/setup %}
 
-## Update Author Attributes
+## 안녕하세요
 
 In `_config.yml` remember to specify your own data:
     
