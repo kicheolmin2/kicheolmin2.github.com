@@ -1,20 +1,25 @@
 ---
 layout: post
 category : lessons
-tagline: "Arduino"
+tagline: ""
 tags : [intro, beginner, Arduino, tutorial]
 ---
 {% include JB/setup %}
 
-This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
-Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
+## Arduino
 
-## Overview
+### 아두이노란 ?
 
-### What is Jekyll?
+아두이노(Arduino)는 오픈소스를 기반으로 한 단일 보드 마이크로컨트롤러이다. 아트멜 AVR을 기반으로 한 보드로 이루어져 있고 최근에는 Cortex-M3를 이용한 제품(Arduino Due)도 있다. 소프트웨어 개발을 위한 통합 환경(IDE)이 있다. 아두이노는 다수의 스위치나 센서로부터 값을 받아들여, LED나 모터와 같은 외부 전자 장치들을 통제함으로써 환경과 상호작용이 가능한 물건을 만들어낼 수 있다. 또한 어도비 플래시, 프로세싱, Max/MSP와 같은 소프트웨어를 연동할 수 있다.
 
-Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
-dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
+아두이노의 가장 큰 장점은 마이크로컨트롤러를 쉽게 동작시킬 수 있다는 것이다. 일반적으로 AVR 프로그래밍이 WinAVR로 컴파일하여, ISP장치를 통해 업로드를 해야하는 등 번거로운 과정을 거쳐야 하는데 비해, 아두이노는 컴파일된 펌웨어를 USB를 통해 업로드를 쉽게 할 수 있다. 또한 아두이노는 다른 모듈에 비해 비교적 저렴하고, 윈도를 비롯해 맥 OS X, 리눅스와 같은 여러 OS를 모두 지원한다. 아두이노 보드의 회로도가 CCL에 따라 공개되어 있으므로, 누구나 직접 보드를 만들고 수정할 수 있다.
+
+아두이노가 인기를 끌면서 이를 비즈니스에 활용하는 기업들도 늘어나고 있다. 장난감 회사 레고는 자사의 로봇 장난감과 아두이노를 활용한 로봇 교육 프로그램을 학생과 성인을 대상으로 북미 지역에서 운영하고 있다. 자동차회사 포드는 아두이노를 이용해 차량용 하드웨어와 소프트웨어를 만들어 차량과 상호작용을 할 수 있는 오픈XC라는 프로그램을 선보이기도 했다.
+
+### 아두이노 소프트웨어
+
+<img class="irc_mi" style="margin-top: 106px;" src="http://vctec.co.kr/web/wiki/arduino/tutorial/ledblink/uno_r3_web.jpg" width="255" height="181">
+
 
 ### Examples
 
