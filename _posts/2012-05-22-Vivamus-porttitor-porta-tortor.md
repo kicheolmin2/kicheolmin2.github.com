@@ -5,8 +5,148 @@ date: 2012-05-22 16:25:06 -0700
 comments: true
 ---
 
-Vivamus porttitor porta tortor at ullamcorper. Proin vel nisi magna. Vivamus vel velit laoreet, malesuada nunc nec, pulvinar velit. Vivamus sollicitudin ex quam, sit amet aliquet velit euismod in. Etiam rutrum augue orci, sed euismod risus vehicula eu. Proin quis velit mattis, sodales erat vitae, condimentum nulla. Vestibulum vitae imperdiet ligula. Etiam venenatis ultrices varius.
+<HTML>
+ <HEAD>
+ <TITLE> 비즈니스 프로그래밍 과제 </TITLE>
+ <BODY>
+ <hr color="green" size="5">
+ <font size=6 face=Arial><center> 일반 상식 퀴즈 </font><br><p>
+ <b><center>★  7문제 이상을 맟추시면 합격입니다  ★</b><p>
 
-Vestibulum vulputate nulla hendrerit velit tempor, et fringilla urna placerat. In hac habitasse platea dictumst. Vestibulum sit amet molestie tortor, eu posuere magna. Donec rhoncus pharetra urna sed tempor. Aliquam erat volutpat. Nulla facilisi. Nam at ante condimentum, egestas massa sed, auctor orci. Aenean tincidunt, turpis et venenatis finibus, orci urna tempor ex, at mattis nisi nisi varius nisl. Pellentesque diam libero, dignissim vel nisl ut, placerat pharetra felis.
+<SCRIPT language = "javaScript">
+function CheckedTotal(mylist){
+  var i,total;
+   total = 0;
+  for( i = 0; i<mylist.length; i++ ) {
+     if( mylist[i].checked ) {
+      total += parseInt(mylist[i].value);
+    }
+   }
+   return total;
+   }
+  function MyScore( mf ) {
+   var myscore = 0;
+   myscore = CheckedTotal( mf.c1 ) + CheckedTotal( mf.c2 );
+   alert( "점수:" + myscore + "점" );
+ }
+ </SCRIPT>
+</head>
+ <body>
+ <FORM NAME="javaFrom">
+ <center>
+   <hr color="green" size="5"> <BR>
+ <b> <i>1. 다음 사진은 무엇인가? </i></b><p>
 
-Curabitur venenatis neque eget odio tempor, vitae condimentum quam aliquam. Duis dui odio, auctor non ultricies nec, mollis nec elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget elit at nisl auctor egestas. Vivamus nec turpis feugiat, dapibus metus et, fermentum lacus. Curabitur at blandit diam, non rutrum nulla. Quisque eget fermentum libero, in bibendum diam. Vestibulum eget porta est, in scelerisque metus. Donec in elit aliquet sapien ultrices tincidunt.
+<IMG src = "c1.jpg"><BR>
+
+     <input type="radio" name="c1" value="0">딸기<BR>
+
+     <input type="radio" name="c1" value="0">수박<BR>
+
+     <input type="radio" name="c1" value="0">포도<BR>
+
+     <input type="radio" name="c1" value="5">사과<p>
+
+<b> <i>2. 다음 사진은 무슨 스포츠인가? </i></b><p>
+
+<IMG src = "c2.jpg"><BR>
+
+     <input type="radio" name="c1" value="0">야구<BR>
+
+     <input type="radio" name="c1" value="0">탁구<BR>
+
+     <input type="radio" name="c1" value="0">농구<BR>
+
+     <input type="radio" name="c1" value="5">축구<p>
+
+<b> <i>3. 계명대학교는 어디에 설립되어있는가? </i></b><p>
+
+     <input type="radio" name="c2" value="0">서울<BR>
+
+     <input type="radio" name="c2" value="0">대전<BR>
+
+     <input type="radio" name="c2" value="5">대구<BR>
+
+     <input type="radio" name="c2" value="0">부산<p>
+    
+ <b> <i>4. 비즈니스 프로그래밍 교수님 성함은? </i></b><p>
+
+     <input type="radio" name="c2" value="0">배지터<BR>
+
+     <input type="radio" name="c2" value="0">배토밴<BR>
+
+     <input type="radio" name="c2" value="0">배르바토프<BR>
+
+     <input type="radio" name="c2" value="5">배재권<p>
+
+<b> <i>5. 다음 중 어류(물고기)가 아닌것은? </i></b><p>
+
+     <input type="radio" name="c2" value="0">바다표범<BR>
+
+     <input type="radio" name="c2" value="5">상어<BR>
+
+     <input type="radio" name="c2" value="0">문어<BR>
+
+     <input type="radio" name="c2" value="0">가오리<p>
+  
+ <b> <i>6. '가축의 흑사병'이라 불리는 구제역에 걸리지 않는 동물은? </i></b><p>
+
+     <input type="radio" name="c2" value="0">양 <BR>
+
+     <input type="radio" name="c2" value="5">말 <BR>
+
+     <input type="radio" name="c2" value="0">사슴<BR>
+
+     <input type="radio" name="c2" value="0">돼지<p>
+
+<b> <i>7. 다음 중 야구선수를 모두 고르시오. </i></b><p>
+
+     <input type="radio" name="c2" value="0">박지성<BR>
+
+     <input type="radio" name="c2" value="2.5">류현진<BR>
+
+     <input type="radio" name="c2" value="0">추블리<BR>
+
+     <input type="radio" name="c2" value="2.5">추신수<p>
+
+<b> 8. <i>흔히 맛있는 맛을 찾아다니는 사람들을 미식가라고 한다. <BR>
+
+       이 때, 이 미식가의 미는 무슨 미인가?</i></b><p>
+
+     <input type="radio" name="c2" value="0">맛 미(味)<BR>
+
+     <input type="radio" name="c2" value="0">미혹할 미(迷)<BR>
+
+     <input type="radio" name="c2" value="0">쌀 미(米)<BR>
+     
+      <input type="radio" name="c2" value="5">아름다운 미(美)<p>
+
+<b> <i>9. 대선 후보가 아닌 사람은? </i></b><p>
+
+     <input type="radio" name="c2" value="0">노무현<BR>
+
+     <input type="radio" name="c2" value="0">이회창<BR>
+
+     <input type="radio" name="c2" value="0">권영길<BR>
+
+     <input type="radio" name="c2" value="5">김구라<p>
+
+<b> <i>10. 다음 중 경영정보학과 교수님이 아닌 분은? </i></b><p>
+
+     <input type="radio" name="c2" value="0">유상진 교수님</b><p>
+
+     <input type="radio" name="c2" value="2.5">이미애 교수님</b><p>
+
+     <input type="radio" name="c2" value="0">최무진 교수님</b><p>
+
+     <input type="radio" name="c2" value="2.5">김영인 교수님<p>
+
+  <hr color="gray" size="1">
+
+  <input type="BUTTON" value="점수확인" onClick="MyScore(this.form)">
+
+ </center>
+</FORM>
+</body>
+</html>
+
