@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello World!
-categories: [general, setup, demo]
+title: Arduino-2
+categories: [Lessons]
 tags: [demo, dbyll, dbtek, setup]
 fullview: true
 ---
