@@ -7,26 +7,20 @@ tagline: Ki&Song's Blog
 
 ## 안녕하세요
 
-In `_config.yml` remember to specify your own data:
+아두이노 관련 학습 블로그 입니다.
+학습내용과 관련 퀴즈까지 준비했습니다.
+
+블로그 사용법 :
     
-    title : My Blog =)
+    오른쪽 상단 버튼 : 홈, 카테고리, 테그
     
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
+    왼쪽 바 :
+      편지모양 : 이메일
+      사람마크 : github 페이지
+      feed : 최근 사용
+      파란마크 : 홈버튼
     
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## 포스트
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -34,9 +28,8 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+## comment
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+궁금한 사항이나 퀴즈 풀이 업로드시 댓글을 이용해주세요.
 
 
