@@ -34,8 +34,11 @@ tags : [intro, beginner, Arduino, tutorial]
     2009년 3월, Arduinio Mega가 출시되었다.
     2011년 3월, 전 세계적으로 30만 개 이상의 아두이노 유닛을 사용할 수 있다
 
-This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
+### 출처
+
+위키백과 - 아두이노 : <a href="http://ko.wikipedia.org/wiki/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8" target="_blank">ko.wikipedia.org/wiki/아두이노</a>
+아두이노 공식홈페이지 : <a href="http://arduino.cc/" target="_blank">arduino.cc</a>
 
 
 ### What does Jekyll Do?
