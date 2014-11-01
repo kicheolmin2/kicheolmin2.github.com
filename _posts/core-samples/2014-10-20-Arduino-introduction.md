@@ -37,7 +37,7 @@ tags : [intro, beginner, Arduino, tutorial]
 
 ### 출처
 
-위키백과 - 아두이노 : <a href="http://ko.wikipedia.org/wiki/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8" target="_blank">ko.wikipedia.org/wiki/아두이노</a>
+위키백과 - 아두이노 : <a href="http://ko.wikipedia.org/wiki/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8" target="_blank">ko.wikipedia.org/wiki/아두이노</a><br>
 아두이노 공식홈페이지 : <a href="http://arduino.cc/" target="_blank">arduino.cc</a>
 
 
