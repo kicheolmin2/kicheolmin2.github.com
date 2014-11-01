@@ -19,13 +19,14 @@ tags : [intro, beginner, Arduino, tutorial]
 ### 아두이노 소프트웨어
 
 <img class="irc_mi" style="margin-top: 106px;" src="http://vctec.co.kr/web/wiki/arduino/tutorial/ledblink/uno_r3_web.jpg" width="255" height="181">
-    *개발자          : 아두이노 소프트웨어
-    *최근버전        : 1.0.5 / 2013년 05월 15일, 535일 경과
-    *프로그래밍 언어 : 자바
-    *운영 체제       : 크로스 플랫폼
-    *종류            : 통합 개발환경
-    *라이선스        : LGPL 또는 GPL 라이선스
-    *웹사이트        : http://arduino.cc
+    
+    개발자          : 아두이노 소프트웨어
+    최근버전        : 1.0.5 / 2013년 05월 15일, 535일 경과
+    프로그래밍 언어 : 자바
+    운영 체제       : 크로스 플랫폼
+    종류            : 통합 개발환경
+    라이선스        : LGPL 또는 GPL 라이선스
+    웹사이트        : http://arduino.cc
 
 ### Examples
 
