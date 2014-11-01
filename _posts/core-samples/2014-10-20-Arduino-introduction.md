@@ -25,9 +25,14 @@ tags : [intro, beginner, Arduino, tutorial]
     운영 체제       : 크로스 플랫폼
     종류            : 통합 개발환경
     라이선스        : LGPL 또는 GPL 라이선스
-    웹사이트        : http://arduino.cc
+    웹사이트        : [Other Jekyll websites]http://arduino.cc
 
-### Examples
+### 역사
+    
+    2005년, 이태리 Ivrea에서 초기 프로젝트가 만들어졌다.
+    2008년 10월, Arduino Duemilanove가 출시되었다.
+    2009년 3월, Arduinio Mega가 출시되었다.
+    2011년 3월, 전 세계적으로 30만 개 이상의 아두이노 유닛을 사용할 수 있다
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
