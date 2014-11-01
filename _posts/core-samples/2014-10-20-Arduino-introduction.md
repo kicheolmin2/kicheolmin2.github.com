@@ -25,7 +25,7 @@ tags : [intro, beginner, Arduino, tutorial]
     운영 체제       : 크로스 플랫폼
     종류            : 통합 개발환경
     라이선스        : LGPL 또는 GPL 라이선스
-    웹사이트        : [Other Jekyll websites]http://arduino.cc
+    웹사이트        : http://arduino.cc
 
 ### 역사
     
