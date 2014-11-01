@@ -17,14 +17,14 @@ tags : [intro, beginner, Arduino, tutorial]
 아두이노가 인기를 끌면서 이를 비즈니스에 활용하는 기업들도 늘어나고 있다. 장난감 회사 레고는 자사의 로봇 장난감과 아두이노를 활용한 로봇 교육 프로그램을 학생과 성인을 대상으로 북미 지역에서 운영하고 있다. 자동차회사 포드는 아두이노를 이용해 차량용 하드웨어와 소프트웨어를 만들어 차량과 상호작용을 할 수 있는 오픈XC라는 프로그램을 선보이기도 했다.
 
 ### 아두이노 소프트웨어
-<img class="irc_mi" style="margin-top: 30px;" src="http://vctec.co.kr/web/wiki/arduino/tutorial/ledblink/uno_r3_web.jpg" width="255" height="181">
-    *개발자          : 아두이노 소프트웨어
-    *최근버전        : 1.0.5 / 2013년 05월 15일, 535일 경과
-    *프로그래밍 언어 : 자바
-    *운영 체제       : 크로스 플랫폼
-    *종류            : 통합 개발환경
-    *라이선스        : LGPL 또는 GPL 라이선스
-    *웹사이트        : http://arduino.cc
+<img class="irc_mi" style="margin-top: 106px;" src="http://vctec.co.kr/web/wiki/arduino/tutorial/ledblink/uno_r3_web.jpg" width="255" height="181">
+    개발자          : 아두이노 소프트웨어
+    최근버전        : 1.0.5 / 2013년 05월 15일, 535일 경과
+    프로그래밍 언어 : 자바
+    운영 체제       : 크로스 플랫폼
+    종류            : 통합 개발환경
+    라이선스        : LGPL 또는 GPL 라이선스
+    웹사이트        : http://arduino.cc
 
 ### Examples
 
