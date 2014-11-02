@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arduino installation
+title: lesson 1 - Arduino installation
 categories: [Lessons]
 tags: [install, arduino, setup]
 fullview: true
