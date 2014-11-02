@@ -1,8 +1,9 @@
 ---
 layout: post
+category : lessons
 title: lesson2 - LED Blink
 date: 2014-10-24 16:25:06 -0700
-comments: false
+tags : [Arduino, LED, blink, Scatch]
 ---
 
 * Get it from [github](https://github.com/scotte/jekyll-clean).
