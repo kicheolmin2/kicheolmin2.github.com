@@ -6,86 +6,64 @@ date: 2014-10-24 16:25:06 -0700
 tags : [Arduino, LED, blink, Scatch]
 ---
 
-* Get it from [github](https://github.com/scotte/jekyll-clean).
-* See the [live demo](https://scotte.github.io/jekyll-clean).
-* See it [in action on my own blog](https://scotte.github.io).
+####필요한 것
+    아두이노 보드(이번 강의에서는 **UNO R3**를 기준으로 함)
+    브레드보드 & 전선
+    저항 330옴(또는 220 ~ 1K옴) 1개
+    LED 1개
+    
+####선행학습
+    저항 읽는 법
+    브레드보드 사용 법
+    
+이번 강의는 LED를 켜고 끄는 것을 제어하는 강의입니다.
+먼저 다음 그림과 같이 회로를 구성해주세요.
 
-Welcome to the sample post for the Jekyll Clean theme.
+<img class="irc_mi" style="margin-top: 20px;" src="https://lh3.googleusercontent.com/-LCUy3w9ySW4/VFZPurV5wII/AAAAAAAAADQ/uOPnzjhG_OU/w496-h623-no/led1.png" width="400" height="502">
 
-A simple and clean Jekyll theme using [bootstrap](http://getbootstrap.com)
-(not to be confused with jekyll-bootstrap) that's easy to modify and very
-modular in component and element reuse.
+####회로
+<img class="irc_mi" style="margin-top: 20px;" src="https://lh5.googleusercontent.com/-S6Ks1PWA5wc/VFZPumwjYaI/AAAAAAAAADE/mAkL4BMQccg/w555-h623-no/led2.png" width="400" height="450">
 
-It uses Disqus for comments and includes Google Analytics support. Both of
-these features are disabled by default and can be enabled via \_config.yml. You
-can also rip this code out of the templates if you like (footer.html and post.html).
-The beauty of Jekyll - keep things clean... Jekyll Clean!
+회로로 구성하면 다음과 같이 구성됩니다.
+    
+    D9 PWM -- 저항 -- LED -- GND
+    
+LED는 극성이 있기 때문에 연결할 때 방향을 확인해야 하는데, 다리가 긴 쪽이 `9번 핀 방향(+)`, 짧은 쪽이 `GND 방향(-)`을 가리키도록 해야합니다.
 
-The theme works well on mobile phones, using a collapsable nav bar and hiding the
-sidebar. The links pane in the sidebar is available on mobile through the nav menu,
-and you can do the same thing for any other sections added to the sidebar.
+<img class="irc_mi" style="margin-top: 20px;" src="https://lh5.googleusercontent.com/-fnffaq6NDgA/VFZPujDEqVI/AAAAAAAAADA/6SOJiOuaM9w/w500-h600-no/led3.png" width="400" height="450">
 
-Don't forget to occassionally merge against my upstream repository so you can get
-the latest changes. Pull requests are encouraged and accepted!
+아두이노 프로그램으로 다음 코드를 대소문자를 구분하여 한 글자도 빼지 않고 적어야 합니다.
+**(중괄호가 열려있을 때 엔터를 치면 자동으로 들여쓰기(`스페이즈 2칸`)가 적용됩니다. **
 
-Installation
-============
+####소스코드
+    int led = 9;
+    
+    void setup(){
+      pinMode(led, OUTPUT);
+    };
+    
+    void loop(){
+      digitalWrite(led, HIGH);
+      delay(1000);
+      digitalWrite(led, LOW);
+      delay(1000);
+    }
 
-If you don't have a blog already on github, start by cloning this repository.
-Best to do that directly on github and then clone that down to your computer.
+이 후 아두이노 보드로 업로드합니다.
 
-If you already do have a blog, You can certainly apply this theme to your existing
-blog in place, but then you won't be able to merge as the theme changes. If you
-re-apply your blog history on top of this theme's **gh-pages** branch, it's then
-easy to update to the latest version of the theme. You also don't want to have to
-deal with resolving old conflicts from your existing history, so you may wish to to
-push your existing master off to a new branch so you have the old history and start
-a new branch with this as the start, merging in your \_posts and other assets (after
-git rm'ing the current \_posts.
+####결과
+<iframe width="720" height="438" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=D95EDE81AB92D7B133CF6ADFD10800810E81&outKey=V1278f1edd080349b692d977d5a4b782b337421e889b2d4ccecb6977d5a4b782b3374" frameborder="no" scrolling="no"></iframe>
 
-Not ideal, but you have to make a choice - either apply it manually or base your
-blog off this theme's branch. Either way it will work, and both have their own
-pros and cons.
-
-You can setup an upstream tracking repository like so:
-
-```
-$ git remote add upstream git@github.com:scotte/jekyll-clean.git
-```
-And now when you wish to merge your own branch onto the latest version of the
-theme, simply do:
-
-```
-$ git fetch upstream
-$ git merge upstream/gh-pages
-```
-
-Of course you will have to resolve conflicts for \_config.yml, \_includes/links-list.html,
-and \_posts, and so on, but in practice this is pretty simple.
-
-This is how I maintain my own blog which is based on this theme. The old history is
-sitting in an **old-master** branch that I can refer to when I need to.
-
-License
-=======
-
-The content of this theme is distributed and licensed under a
-![License Badge]({{ site.baseurl}}/images/cc_by_88x31.png)
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
-
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
-
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to [the original theme on github](https://github.com/scotte/jekyll-clean)
-so I get credit for the original design. Beyond that, have at it!
-
-This theme includes the following files which are the properties of their
-respective owners:
-
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
-* images/cc_by_88x31.png - [creative commons](https://creativecommons.org)
+####소스코드 분석
+    int led = 9;                        // 변수 선언
+    
+    void setup(){                       // pinMode 선언, led를 output으로 설정, 
+      pinMode(led, OUTPUT);             // 9로 설정되었므로 디지털9번이 output으로 설정됨
+    };
+    
+    void loop(){                        // loop문, C언어에서는 for, while과 같은 역할
+      digitalWrite(led, HIGH);          // 디지털쓰기 , 9번핀을 high로 설정
+      delay(1000);                      // delay를 줌
+      digitalWrite(led, LOW);           // 디지털쓰기 , 9번핀을 low로 설정
+      delay(1000);                      // delay를 줌
+    }
