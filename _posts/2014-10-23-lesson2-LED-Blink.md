@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Jekyll Clean Theme"
-date: 2014-08-22 16:25:06 -0700
+title: lesson2 - LED Blink
+date: 2014-10-24 16:25:06 -0700
 comments: false
 ---
 
