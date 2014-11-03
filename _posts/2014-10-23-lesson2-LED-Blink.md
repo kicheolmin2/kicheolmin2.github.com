@@ -63,7 +63,7 @@ LED는 극성이 있기 때문에 연결할 때 방향을 확인해야 하는데
     
     void loop(){                        // loop문, C언어에서는 for, while과 같은 역할
       digitalWrite(led, HIGH);          // 디지털쓰기 , 9번핀을 high로 설정
-      delay(1000);                      // delay를 줌
+      delay(1000);                      // delay를 줌 (1000ms = 1s)
       digitalWrite(led, LOW);           // 디지털쓰기 , 9번핀을 low로 설정
-      delay(1000);                      // delay를 줌
+      delay(1000);                      // delay를 줌 (1000ms = 1s)
     }
