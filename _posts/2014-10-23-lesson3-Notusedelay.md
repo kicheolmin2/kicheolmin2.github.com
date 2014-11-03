@@ -6,13 +6,13 @@ date: 2014-10-24 17:25:06 -0700
 tags : [Arduino, LED, blink, delay]
 ---
 
-####필요한 것
+####**필요한 것**
     아두이노 보드(이번 강의에서는 **UNO R3**를 기준으로 함)
     브레드보드 & 전선
     저항 330옴(또는 220 ~ 1K옴) 1개
     LED 1개
     
-####선행학습
+####**선행학습**
     Lesson2 - LED Blink
     
 이번 강의는 LED Blink 예제와 결과는 동일하지만 내부적으로 시간 지연 함수 delay()를 사용하지 않습니다.
@@ -22,14 +22,14 @@ LED 상태를 최종적으로 변경시킨 시각과 현재 시각을 계속 비
 
 <img class="irc_mi" style="margin-top: 20px;" src="https://lh3.googleusercontent.com/-LCUy3w9ySW4/VFZPurV5wII/AAAAAAAAADQ/uOPnzjhG_OU/w496-h623-no/led1.png" width="400" height="502">
 
-####회로
+####**회로**
 <img class="irc_mi" style="margin-top: 20px;" src="https://lh5.googleusercontent.com/-S6Ks1PWA5wc/VFZPumwjYaI/AAAAAAAAADE/mAkL4BMQccg/w555-h623-no/led2.png" width="400" height="450">
 
 회로는 이전 강의 `Lesson2 - LED Blink`와 같습니다.
     
     D9 PWM -- 저항 -- LED -- GND
     
-####소스코드
+####**소스코드**
     int led = 9;
     
     `int ledState = LOW;`
@@ -58,10 +58,10 @@ LED 상태를 최종적으로 변경시킨 시각과 현재 시각을 계속 비
 
 `빨간색`으로 표시한 부분이 이전 강의에서 달라진 소스 부분입니다.
 
-####결과
+####**결과**
 <iframe width="720" height="438" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=D7AF6942C12570C76CF6F85F5DA177373136&outKey=V12751952c04ef203a2553eac689da638f98cc92c6f4b2d50fc4a3eac689da638f98c" frameborder="no" scrolling="no"></iframe>
 
-####소스코드 분석
+####**소스코드 분석**
     int led = 9;                                          //9번 핀 사용을 위한 변수 선언
     
     `int ledState = LOW;`                                 //led의 상태를 저장해두는 변수
