@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : Arduino
 tagline: ""
 tags : [intro, beginner, Arduino, tutorial]
 ---
