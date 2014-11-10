@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : Arduino
 title: lesson2 - LED Blink
 date: 2014-10-24 16:25:06 -0700
 tags : [Arduino, LED, blink, Scatch]
