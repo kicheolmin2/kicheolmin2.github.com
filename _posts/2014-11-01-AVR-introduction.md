@@ -1,4 +1,4 @@
-Enter file contents here---
+---
 layout: post
 category : AVR
 title: lesson1 - AVR introduction
