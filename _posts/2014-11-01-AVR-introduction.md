@@ -61,7 +61,6 @@ AVR 칩에 프로그램 코드는 여러가지 방법으로 전송할 수 있다
 
 ###**ISP**
 <img class="irc_mi" style="margin-top: 20px;" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Isp_headers.svg/220px-Isp_headers.svg.png" width="400" height="502">
-http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Isp_headers.svg/220px-Isp_headers.svg.png
 ISP(in-system programming) 프로그램 전송 방식은 기능적으로 SPI 방법에 Reset 선을 추가한 것이다. PCB에 납땜 상태에서 프로그램 코드를 전송할 수 있다. AVR에서 가장 일반적인 방법이다.
 Atmel AVR ISP mkII 장치는 USB에 연결하고 Atmel의 ISP 프로그램에 의해 동작한다.
 AVRDUDE (AVR Downloader/UploaDEr)는 Linux, FreeBSD, 윈도, OS X에서 실행되면 다양한 하드웨어(Atmel AVR ISP mkII, Atmel JTAG ICE)로 프로그래밍을 할 수 있다.
